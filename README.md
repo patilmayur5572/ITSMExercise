@@ -12,7 +12,7 @@ git clone https://github.com/patilmayur5572/ITSMExercise.git
 The client-side is developed using Angular CLI and the server-side code is developed using Node.js. Please follow these instruction to download and install 
 [Node Package Manager(npm) and Node.js](https://www.npmjs.com/get-npm). After Node Package Manager (npm) has been installed, download and install [Angular CLI from here](https://cli.angular.io/) <br>
 
-### Starting the SydneyHappening project
+### Starting the ITSMExercise project
 After completing the installations, navigate to `ITSMExercise/server/` directory and give command <br>
 `npm intall`<br>
 This would install all the package dependencies for the server from `package.json file` in the `node_modules` directory. <br>  
