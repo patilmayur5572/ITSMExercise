@@ -1,5 +1,5 @@
 # ITSMExercise
-This is simple application which fetches movie data from external API.
+This is simple application which fetches movie data from external API https://www.themoviedb.org/.
 
 # Getting Started
 Please clone ITSMExercise project into your local system to work with it. 
