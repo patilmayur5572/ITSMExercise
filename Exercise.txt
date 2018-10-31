@@ -1,0 +1,7 @@
+1. Obtain an API key from https://www.themoviedb.org/
+2. Pick any movie ID and use HTML, JavaScript and your CSS library of choice to display the
+following details on the screen:
+   • Movie Title
+   • Movie Poster/Image
+   • Movie Cast (Director, Actors, Producers etc.)
+3. Submit your results onto GitHub, JSBin or similar and provide the URL.

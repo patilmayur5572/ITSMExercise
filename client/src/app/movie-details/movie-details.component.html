@@ -1,0 +1,20 @@
+<div class="container" *ngIf="filtersLoaded | async">
+    <div class="row col-lg-12 displayContents">
+      <div class="col-lg-6">
+        <!--Movie Poster-->
+        <img src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" alt="{{movie.original_title}}" height="90%" width="75%"/>
+      </div>
+      <div class="col-lg-6">
+        <h1>{{movie.original_title}}</h1>
+        <p>{{movie.overview}}</p><br>
+        <div *ngIf="movie.production_companies.length > 0">
+        <h4>Production Companies</h4>
+        <div *ngFor="let prod of movie.production_companies">
+          <!--Logo of Production house-->
+            <img *ngIf="prod.logo_path" src="https://image.tmdb.org/t/p/w500{{prod.logo_path}}" alt="{{movie.name}}" height="5%" width="5%"/>
+            <span>{{prod.name}}</span><br>
+        </div> 
+        </div>       
+      </div>
+    </div>
+  </div>
